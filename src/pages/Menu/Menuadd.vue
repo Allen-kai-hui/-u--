@@ -13,7 +13,7 @@
       label-width="100px"
       class="demo-ruleForm"
     >
-      <el-form-item label="菜:" prop="title">
+      <el-form-item label="菜danb:" prop="title">
         <el-input v-model="ruleForm.title"></el-input>
       </el-form-item>
       <el-form-item label="上级菜单:" prop="pid">
