@@ -13,12 +13,12 @@
       label-width="100px"
       class="demo-ruleForm"
     >
-      <el-form-item label="菜单名称" prop="title">
+      <el-form-item label="菜单名称:" prop="title">
         <el-input v-model="ruleForm.title"></el-input>
       </el-form-item>
-      <el-form-item label="上级菜单" prop="pid">
+      <el-form-item label="上级菜单:" prop="pid">
         <el-select v-model="ruleForm.pid" placeholder="请选择">
-          <el-option label="顶级菜单" :value="0"></el-option>
+          <el-option label="顶级菜单:" :value="0"></el-option>
           <el-option :label="item.title" :value="item.id" v-for="(item) in menulist" :key="item.id"></el-option>
         </el-select>
       </el-form-item>
